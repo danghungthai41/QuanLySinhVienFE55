@@ -3,3 +3,4 @@ var lopHoc = function(){
     this.tenLop ='';
     this.maSo = 'abc';
 }
+var a =1;
