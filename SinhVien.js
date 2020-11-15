@@ -8,6 +8,10 @@ var SinhVien = function () {
     this.diemToan = '';
     this.diemLy = '';
     this.diemHoa = '';
+    this.hienThiThongTin = function(){
+        console.log(this.tenSinhVien);
+
+    }
     this.diemRenLuyen ='';
     this.tinhDiemTrungBinh = function (){
         var dtb = (Number(this.diemToan) + Number(this.diemLy) + Number(this.diemHoa) )/3;
